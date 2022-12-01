@@ -19,14 +19,14 @@
 
 html, body {
     background-color: white;
-    width: 98vw;
+    width: 96vw;
     height: 100vh;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    width: 98vw;
+    width: 96vw;
     height: 150px;
     padding: 10px;
     margin: auto;
@@ -41,7 +41,7 @@ header img.img-logo {
 
 header menu {
     display: flex;
-    width: 98vw;
+    width: 96vw;
     height: 40px;
     justify-content: space-evenly;
     
@@ -68,7 +68,7 @@ header menu a:hover {
 
 main {
     background-color: #f8c700;
-    width: 98vw;
+    width: 96vw;
 }
 
 main section div#img {
@@ -80,7 +80,7 @@ main section div#img {
     background-position: center center;
     background-size: cover;
     height: 400px;
-    width: 98vw;
+    width: 96vw;
 }
 
 main section#sec1 h1 {
@@ -114,7 +114,7 @@ main section#sec1 h1:hover {
 }
 
 main section#sec2 {
-    width: 98vw;
+    width: 96vw;
     height: 640px;
     background-color: #f5f5f5;
     padding: 10px;
@@ -134,3 +134,167 @@ main section#sec2 img {
     width: 70vw;
 }
 
+main section#sec3 {
+    width: 96vw;
+}
+
+main section#sec3 div h2 {
+    background-color: #011627;
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
+
+main section#sec3 div.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+div#img1 {
+    display: flex;
+    border-radius: 20px;
+    align-items: flex-end;
+    background: black url(../img/et-industrial.png);
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 300px;
+}
+
+div#img1 p {
+    display: flex;
+    background-color: #f8c600ee;
+    border-radius: 10px 10px 0px 0px;
+    width: 60vw;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+div#img2 {
+    display: flex;
+    align-items: flex-end;
+    background: black url(../img/et-residencial.png);
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 300px;
+    
+    
+}
+
+div#img2 p {
+    display: flex;
+    background-color: #f8c600ee;
+    border-radius: 10px 10px 0px 0px;
+    width: 60vw;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+div#img3 {
+    display: flex;
+    align-items: flex-end;
+    background: black url(../img/fibra-optica.png);
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 300px;
+}
+
+div#img3 p {
+    display: flex;
+    background-color: #f8c600ee;
+    border-radius: 10px 10px 0px 0px;
+    width: 60vw;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+div#img4 {
+    display: flex;
+    align-items: flex-end;
+    background: black url(../img/wifi-premium.png);
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 300px;
+}
+
+div#img4 p {
+    display: flex;
+    background-color: #f8c600ee;
+    border-radius: 10px 10px 0px 0px;
+    width: 60vw;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+div#img5 {
+    display: flex;
+    align-items: flex-end;
+    background: black url(../img/fios-aleatorios.png);
+    background-position: center center;
+    background-size: cover;
+    width: 60vw;
+    height: 300px;
+}
+
+div#img5 p {
+    display: flex;
+    background-color: #f8c600ee;
+    border-radius: 10px 10px 0px 0px;
+    width: 60vw;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #011627;
+    height: 300px;
+    width: 96vw;
+    color: white;
+    gap: 20px;
+}
+
+footer div#hr {
+    padding: 10px;
+    width: 50vw;
+    height: 70px;
+    font-size: 1.1em;
+}
+
+footer div#wpp {
+    padding: 10px;
+    width: 50vw;
+    height: 70px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
